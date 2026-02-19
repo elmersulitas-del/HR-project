@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School HR System</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.card h2 {
+    color: #1e3c72;
+    margin-bottom: 5px;
+}
+
+.card p.subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #444;
+}
+
+.google-btn:hover {
+    background: #f2f2f2;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.google-btn img {
+    width: 20px;
+}
+
+.note {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+}
+
+.footer {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #bbb;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="card">
+        <h2>🏫 School HR System</h2>
+        <p class="subtitle">Human Resource Management Portal</p>
+
+        <!-- CHANGE THIS LINK LATER TO google_login.php -->
+        <a href="google_login.php" class="google-btn">
+            <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png">
+            Sign in with Google
+        </a>
+
+        <p class="note">
+            Only institutional email (@yourschool.edu.ph) is allowed.
+        </p>
+
+        <div class="footer">
+            © 2026 Your School Name
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
